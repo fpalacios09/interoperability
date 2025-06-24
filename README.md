@@ -27,13 +27,14 @@ Cada uno ejecuta su propio firmware Arduino, el cual se comunica con el servidor
 ## 📂 Estructura del Repositorio
 
 ```
-├── README.md
-├── device_manager.py
-│
 ├── arduino/
 │ ├── esp32_olimex/ → Código para ESP32 Olimex PoE (Ethernet)
 │ ├── esp32_wifi/ → Código para ESP32-WROOM32 (WiFi)
-└ └── nano_esp32/ → Código para Nano ESP32 (WiFi)
+├ └── nano_esp32/ → Código para Nano ESP32 (WiFi)
+|
+├── LICENSE
+├── README.md
+└── device_manager.py
 ```
 
 ## ⚙️ Requisitos

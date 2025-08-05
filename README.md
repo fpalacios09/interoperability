@@ -34,12 +34,13 @@ Cada uno ejecuta su propio firmware Arduino, el cual se comunica con el servidor
 |
 ├── LICENSE
 ├── README.md
-└── device_manager.py
+├── device_manager.py
+└── pinv024_informe
 ```
 
 ## ⚙️ Requisitos
 En la Raspberry Pi (o PC que actúe como servidor), se requiere Python con Flask.
-En Dispositivos Embebidos, se requiere gestor de tarjetas ESP32, librería ArduinoJson by: bblanchon.
+Para los Dispositivos Embebidos, se requiere gestor de tarjetas ESP32, librería ArduinoJson by: bblanchon.
 
 ## 🚀 Ejecución
 ### En Raspberry Pi
@@ -71,6 +72,7 @@ Al ejecutar el sistema completo:
 - Los dispositivos se registran automáticamente al conectarse.
 - El servidor muestra en consola el monitoreo periódico.
 - El archivo ```devices.json``` refleja el estado actual de todos los nodos.
+- En el archivo ```pinv024_informe....pdf``` se encuentran resultados registrados.
 
 
 

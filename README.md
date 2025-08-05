@@ -56,7 +56,7 @@ static ip_address=192.168.100.1/24
 ```
 *Reiniciar*
 
-Ejecutar:
+Dirigirse al directorio en donde se clonó el repositorio y ejecutar:
 ```
 python3 device_manager.py
 ```
@@ -71,7 +71,7 @@ Si la Raspberry Pi no posee conexión wireless para las ESP32 WiFi, se debe util
 Al ejecutar el sistema completo:
 - Los dispositivos se registran automáticamente al conectarse.
 - El servidor muestra en consola el monitoreo periódico.
-- El archivo ```devices.json``` refleja el estado actual de todos los nodos.
+- El archivo ```devices.json``` generado en la Raspberry Pi mediante el código ```device_manager.py``` refleja el estado actual de todos los nodos.
 - En el archivo ```pinv024_informe....pdf``` se encuentran resultados registrados.
 
 

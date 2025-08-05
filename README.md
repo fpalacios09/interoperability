@@ -62,7 +62,7 @@ python3 device_manager.py
 ```
 
 ### En Placas ESP32
-Cargar los respectivos códigos Arduino a cada placa. Cambiar las IP por direcciones dentro de la misma subred que la Raspberry Pi sin repetir direcciones.
+Clonar el repositorio en una PC con Arduino IDE y cargar los respectivos códigos Arduino a cada placa. Cambiar las IP por direcciones dentro de la misma subred que la Raspberry Pi sin repetir direcciones.
 
 ### Conexión Wireless
 Si la Raspberry Pi no posee conexión wireless para las ESP32 WiFi, se debe utilizar un Router o Access Point conectado al switch, donde se conectarán todos los dispositivos cableados.
